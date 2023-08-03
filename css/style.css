@@ -1,0 +1,40 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #7964a8be;
+
+}
+
+.btn-cust {
+    background-color: var(--color2);
+    /* min-width: 10%; */
+    aspect-ratio: 2.5; 
+    color: var(--bs-white);
+}
+
+.btn-begin {
+    background-color: var(--color2);
+    color: var(--bs-white);
+}
+
+
+/* .btn-cust:hover {
+    background-color: var(--color1);
+} */
+
+.btn-cust:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.332); 
+}
+
+.btn-begin:hover {
+    background-color: var(--color1);
+}
+
+.btn-toggle {
+    background-color: beige;
+    color: #000;
+}
+
+.btn-toggle-fake {
+    background-color: beige;
+    color: #000;
+}

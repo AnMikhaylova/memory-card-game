@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <title>Memory Card Game</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <h1 class="text-center text-dark">Memory Card Game</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="numOfColsRows">
+      <div class="container mb-5">
+        <form id="inputVals">
+          <label for="inputRows">Количество строк</label>
+          <select id="inputRows" class="form-select-inline">
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+          </select>
+
+          <label for="inputCols">Количество столбцов</label>
+          <select id="inputCols" class="form-select-inline">
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+          </select>
+
+          <button class="btn btn-begin">Начать игру</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="game"></section>
+  </body>
+</html>
